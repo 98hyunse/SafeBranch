@@ -1,0 +1,70 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Rs_garden/json/Rs_garden_task_boil_water_in_the_microwave__with_water_bottle_0_0_template.json",
+    "canonical_sha256": "8830b178a6c3c1ce23fef23ad3b27e7090ee70e3a7d12953a92b31068e705efc"
+  },
+  "target": {
+    "relative_path": "Rs_garden/json/Rs_garden_task_boil_water_in_the_microwave__with_water_bottle_typeA_with_power_strip_0_0_template.json",
+    "canonical_sha256": "337346aba413610b23712f4cebe811a32b08e00ee64385c8155864d27ec98f66"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/power_strip.n.01_1",
+      "value": "power_strip_179"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/power_strip_179",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "power_strip_179",
+          "category": "power_strip",
+          "model": "czvrku",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/power_strip_179",
+      "value": {
+        "root_link": {
+          "pos": [
+            0.425178587436676,
+            -3.6453237533569336,
+            0.8803972005844116
+          ],
+          "ori": [
+            -0.20329906046390533,
+            -0.16951920092105865,
+            0.9639827609062195,
+            0.02588401548564434
+          ],
+          "lin_vel": [
+            -9.323484846390784e-05,
+            -0.0006480048759840429,
+            2.2380336304195225e-05
+          ],
+          "ang_vel": [
+            0.016701336950063705,
+            -0.002105721738189459,
+            0.007022134959697723
+          ]
+        },
+        "non_kin": {}
+      }
+    }
+  ]
+}

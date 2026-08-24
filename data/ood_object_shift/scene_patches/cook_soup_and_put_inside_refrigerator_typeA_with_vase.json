@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Wainscott_0_int/json/Wainscott_0_int_task_cook_soup_and_put_inside_refrigerator_0_0_template.json",
+    "canonical_sha256": "61e87ddad9dafd04de3c9661e8efbaef77197792b95ec9c500b882d872d5ba27"
+  },
+  "target": {
+    "relative_path": "Wainscott_0_int/json/Wainscott_0_int_task_cook_soup_and_put_inside_refrigerator_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "28e4fb69fd5a2c301d3ac15d06f2e5775d2b4694e2ff1da275dca80051ee4c69"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_195"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_195",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_195",
+          "category": "vase",
+          "model": "ipbgrw",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_195",
+      "value": {
+        "root_link": {
+          "pos": [
+            4.884936809539795,
+            10.801628112792969,
+            1.0037230253219604
+          ],
+          "ori": [
+            0.0001150232128566131,
+            3.1546802347293124e-05,
+            -0.01921568624675274,
+            0.9998153448104858
+          ],
+          "lin_vel": [
+            -0.002388523891568184,
+            0.003975675906985998,
+            -0.0007842100458219647
+          ],
+          "ang_vel": [
+            -0.043524935841560364,
+            -0.024789249524474144,
+            -0.002732109045609832
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

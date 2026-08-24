@@ -1,0 +1,23 @@
+(define (problem place_water_glass_inside_cabinet__synth_bag__of__rice-0)
+    (:domain omnigibson)
+
+    (:objects
+        bag__of__rice.n.01_1 - bag__of__rice.n.01
+        bottom_cabinet.n.01_1 - bottom_cabinet.n.01
+        top_cabinet.n.01_1 - top_cabinet.n.01
+        floor.n.01_1 - floor.n.01
+        agent.n.01_1 - agent.n.01
+    )
+
+    (:init
+        (ontop bag__of__rice.n.01_1 floor.n.01_1)
+        (inroom bottom_cabinet.n.01_1 utility_room)
+        (inroom top_cabinet.n.01_1 utility_room)
+        (inroom floor.n.01_1 utility_room)
+        (ontop agent.n.01_1 floor.n.01_1)
+    )
+
+    (:goal
+        (or (inside ?bag__of__rice.n.01_1 ?bottom_cabinet.n.01_1) (inside ?bag__of__rice.n.01_1 ?top_cabinet.n.01_1) )
+    )
+)

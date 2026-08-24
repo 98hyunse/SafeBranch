@@ -1,0 +1,11 @@
+{
+  "name": "SafeBranch OOD-TaskShift",
+  "version": 1,
+  "num_generated_variants": 159,
+  "num_paper_evaluation_variants": 138,
+  "full_task_list": "full_159.txt",
+  "paper_evaluation_task_list": "paper_eval_138.txt",
+  "tasks_dir": "tasks",
+  "bddl_dir": "bddl",
+  "contains_3d_assets": false
+}

@@ -1,0 +1,76 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_clean_a_kitchen_sink__with_toaster_oven_0_0_template.json",
+    "canonical_sha256": "4634136306fb54e8a2eb30aa64e0d5e01ebf4aceda616202ab1ead7548267dc9"
+  },
+  "target": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_clean_a_kitchen_sink__with_toaster_oven_typeA_with_carving_knife_0_0_template.json",
+    "canonical_sha256": "76f9610834c12660ecd57c6968b9577e31d5d0ca4684fbe316b567713bf0f2ae"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/carving_knife.n.01_1",
+      "value": "carving_knife_181"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/carving_knife_181",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "carving_knife_181",
+          "category": "carving_knife",
+          "model": "usqmjc",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/carving_knife_181",
+      "value": {
+        "root_link": {
+          "pos": [
+            -9.544054985046387,
+            -3.7733335494995117,
+            0.8882971405982971
+          ],
+          "ori": [
+            -0.675614595413208,
+            0.14613847434520721,
+            -0.04966842010617256,
+            0.7209172248840332
+          ],
+          "lin_vel": [
+            -2.5668527086963877e-05,
+            9.316328214481473e-05,
+            6.8705448938999325e-06
+          ],
+          "ang_vel": [
+            -0.00025762655423022807,
+            0.0001339367008768022,
+            -1.590855208633002e-05
+          ]
+        },
+        "non_kin": {
+          "SlicerActive": {
+            "value": true,
+            "previously_touching": false,
+            "delay_counter": 0
+          }
+        }
+      }
+    }
+  ]
+}

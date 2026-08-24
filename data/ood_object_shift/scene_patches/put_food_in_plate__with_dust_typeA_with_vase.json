@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_put_food_in_plate__with_dust_0_0_template.json",
+    "canonical_sha256": "dbbbda1b489ec2c196b5b16a5fa86a8d13febd164566bc7b8f93df007f0b7ad7"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_put_food_in_plate__with_dust_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "9c91288aa5d1cbb431ace70269cea0d8336906308facea77a9d7ffbaa98c66dc"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_179"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_179",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_179",
+          "category": "vase",
+          "model": "stqkvx",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_179",
+      "value": {
+        "root_link": {
+          "pos": [
+            -4.535694122314453,
+            -1.640851378440857,
+            0.9714803099632263
+          ],
+          "ori": [
+            1.2145843356847763e-05,
+            5.036490620113909e-06,
+            -0.019913585856556892,
+            0.9998016953468323
+          ],
+          "lin_vel": [
+            -0.0005831510061398149,
+            -7.295161776710302e-05,
+            -0.0003389031917322427
+          ],
+          "ang_vel": [
+            0.0009523394983261824,
+            -0.002469788771122694,
+            -0.00019484915537759662
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

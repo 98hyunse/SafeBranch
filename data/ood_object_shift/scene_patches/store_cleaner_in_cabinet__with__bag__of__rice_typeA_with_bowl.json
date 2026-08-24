@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_store_cleaner_in_cabinet__with__bag__of__rice_0_0_template.json",
+    "canonical_sha256": "32d012e2227227e1e16b1a80c748254d351a1ada11c233d7eb265fdf190d0494"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_store_cleaner_in_cabinet__with__bag__of__rice_typeA_with_bowl_0_0_template.json",
+    "canonical_sha256": "09e502372cfd0f4fdf00f528dd527cfbea5326363e9eb97de7cf0ac24fcec62f"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/bowl.n.01_1",
+      "value": "bowl_339"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/bowl_339",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "bowl_339",
+          "category": "bowl",
+          "model": "jblalf",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/bowl_339",
+      "value": {
+        "root_link": {
+          "pos": [
+            -2.244253158569336,
+            11.950010299682617,
+            0.9088172912597656
+          ],
+          "ori": [
+            -0.0012953681871294975,
+            0.0007769172079861164,
+            -0.07882194966077805,
+            0.9968876242637634
+          ],
+          "lin_vel": [
+            1.427462302672211e-05,
+            -1.8795341020449996e-05,
+            -8.087728929240257e-06
+          ],
+          "ang_vel": [
+            0.00045025741565041244,
+            0.0003621939104050398,
+            8.817218622425571e-05
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

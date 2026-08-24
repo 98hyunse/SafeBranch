@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_jar__of__jam_inside_cabinet_0_0_template.json",
+    "canonical_sha256": "f9d541ef34b39b77778560747ebf5f8f29944dd660e4608b5bda420d999780ed"
+  },
+  "target": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_jar__of__jam_inside_cabinet_typeA_with_beer_glass_0_0_template.json",
+    "canonical_sha256": "27c049cf5d495f0a7b3ff5188eac3aff0a218b8cd59890b377170f6ceb4e61c5"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/beer_glass.n.01_1",
+      "value": "beer_glass_340"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/beer_glass_340",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "beer_glass_340",
+          "category": "beer_glass",
+          "model": "mxsliu",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/beer_glass_340",
+      "value": {
+        "root_link": {
+          "pos": [
+            1.2755650281906128,
+            7.830114841461182,
+            0.9568601846694946
+          ],
+          "ori": [
+            0.001994389807805419,
+            -0.0007275310927070677,
+            -0.00886816717684269,
+            0.9999583959579468
+          ],
+          "lin_vel": [
+            -2.207370380347129e-05,
+            0.00010846127406693995,
+            -6.674494943581522e-05
+          ],
+          "ang_vel": [
+            -0.0012946565402671695,
+            -0.0006124855135567486,
+            0.00014892419858369976
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

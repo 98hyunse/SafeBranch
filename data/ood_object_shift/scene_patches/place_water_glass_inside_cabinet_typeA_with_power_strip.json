@@ -1,0 +1,70 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_water_glass_inside_cabinet_0_0_template.json",
+    "canonical_sha256": "8865c9fb51976155eeb0fd59521bc25e712c92e7ec6c8b1f64d3bd49d64b9136"
+  },
+  "target": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_water_glass_inside_cabinet_typeA_with_power_strip_0_0_template.json",
+    "canonical_sha256": "609f3da919897aa66910b76103edeea1791cf1e729ec0b9ab14e8e45d3f7c592"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/power_strip.n.01_1",
+      "value": "power_strip_339"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/power_strip_339",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "power_strip_339",
+          "category": "power_strip",
+          "model": "czvrku",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/power_strip_339",
+      "value": {
+        "root_link": {
+          "pos": [
+            1.311488151550293,
+            7.788646221160889,
+            0.9365162253379822
+          ],
+          "ori": [
+            0.0005504291621036828,
+            0.012508226558566093,
+            -0.04694639891386032,
+            0.9988189935684204
+          ],
+          "lin_vel": [
+            -2.3697555207036203e-06,
+            -6.457183189922944e-05,
+            -0.00010549539001658559
+          ],
+          "ang_vel": [
+            0.011637985706329346,
+            -0.000681691337376833,
+            -0.0010357550345361233
+          ]
+        },
+        "non_kin": {}
+      }
+    }
+  ]
+}

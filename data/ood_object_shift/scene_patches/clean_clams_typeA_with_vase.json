@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_clean_clams_0_0_template.json",
+    "canonical_sha256": "369510ba6a7ac33b798d8c631c7144fa35c4e9b3d2e3888981037f09c7ea2dda"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_clean_clams_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "9dac7f3b57a3b09032dcc35b1696b698dfd2f44385e5163def296d0d76a7e8f0"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_340"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_340",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_340",
+          "category": "vase",
+          "model": "wltgjn",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_340",
+      "value": {
+        "root_link": {
+          "pos": [
+            -3.0102529525756836,
+            11.951629638671875,
+            0.9764009118080139
+          ],
+          "ori": [
+            -6.135647709015757e-06,
+            -3.0216665436455514e-07,
+            -0.0020664192270487547,
+            0.9999978542327881
+          ],
+          "lin_vel": [
+            3.4452008549124e-05,
+            -0.00032749533420428634,
+            -0.00022650149185210466
+          ],
+          "ang_vel": [
+            0.00236293557099998,
+            0.00011423368414398283,
+            0.0005120073328725994
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

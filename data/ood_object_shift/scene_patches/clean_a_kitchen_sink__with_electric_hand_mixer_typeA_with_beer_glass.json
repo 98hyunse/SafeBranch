@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Benevolence_1_int/json/Benevolence_1_int_task_clean_a_kitchen_sink__with_electric_hand_mixer_0_0_template.json",
+    "canonical_sha256": "27591f62b10d198f769b4611ebbfdcd06387d8201139d23a01375907007a3c64"
+  },
+  "target": {
+    "relative_path": "Benevolence_1_int/json/Benevolence_1_int_task_clean_a_kitchen_sink__with_electric_hand_mixer_typeA_with_beer_glass_0_0_template.json",
+    "canonical_sha256": "0e88fb833ae8184698bfe3ea1a9b0defba3e263df8b7f11794219fb69c6ccba2"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/beer_glass.n.01_1",
+      "value": "beer_glass_82"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/beer_glass_82",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "beer_glass_82",
+          "category": "beer_glass",
+          "model": "mxsliu",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/beer_glass_82",
+      "value": {
+        "root_link": {
+          "pos": [
+            1.3541324138641357,
+            1.1688172817230225,
+            2.1570472717285156
+          ],
+          "ori": [
+            0.0019902363419532776,
+            -0.00025687782908789814,
+            -0.008022548630833626,
+            0.9999658465385437
+          ],
+          "lin_vel": [
+            -0.0001030087296385318,
+            -0.00017994604422710836,
+            7.680256203457247e-06
+          ],
+          "ang_vel": [
+            0.0016152288299053907,
+            -0.0008106775349006057,
+            -0.00012073425750713795
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

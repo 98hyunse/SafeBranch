@@ -1,0 +1,70 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_cleaner_in_cabinet__with__can__of__beans_0_0_template.json",
+    "canonical_sha256": "e6881aeb228c65927945649ff97e86278f1a992ba95e112f4efcb00470ca163d"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_cleaner_in_cabinet__with__can__of__beans_typeA_with_power_strip_0_0_template.json",
+    "canonical_sha256": "124737b46881bd6d88bb239827a3f2a92cb0992258c4931dbb4f2bf5b0d0451b"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/power_strip.n.01_1",
+      "value": "power_strip_181"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/power_strip_181",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "power_strip_181",
+          "category": "power_strip",
+          "model": "czvrku",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/power_strip_181",
+      "value": {
+        "root_link": {
+          "pos": [
+            -7.604822635650635,
+            -5.303151607513428,
+            0.9262972474098206
+          ],
+          "ori": [
+            -0.04733504354953766,
+            0.02945336513221264,
+            -0.37708809971809387,
+            0.9244979619979858
+          ],
+          "lin_vel": [
+            -4.6716450015082955e-06,
+            -1.069698282663012e-05,
+            -9.842503459367435e-06
+          ],
+          "ang_vel": [
+            0.0001132432880694978,
+            -2.6136383894481696e-05,
+            -2.2085758246248588e-05
+          ]
+        },
+        "non_kin": {}
+      }
+    }
+  ]
+}

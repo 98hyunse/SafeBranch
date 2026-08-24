@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_putting_dishes_away_after_cleaning_0_0_template.json",
+    "canonical_sha256": "24cd39a73adb20c50a0de11417bef73b837d7322c569af5e839a55f81cdd7033"
+  },
+  "target": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_putting_dishes_away_after_cleaning_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "028c610b4bd3bc5b514f10a3c44451f973a4fa7bf24e2bba37696560fde4ec31"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_115"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_115",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_115",
+          "category": "vase",
+          "model": "rwotxo",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_115",
+      "value": {
+        "root_link": {
+          "pos": [
+            -2.8775057792663574,
+            -2.7746384143829346,
+            0.9884521961212158
+          ],
+          "ori": [
+            2.5564339011907578e-05,
+            -1.3306736946105957e-05,
+            -0.05816487967967987,
+            0.9983069896697998
+          ],
+          "lin_vel": [
+            -0.00039910219493322074,
+            0.00058180425548926,
+            -4.100528531125747e-05
+          ],
+          "ang_vel": [
+            -0.005442115943878889,
+            -0.003696892876178026,
+            -0.0007303080637939274
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

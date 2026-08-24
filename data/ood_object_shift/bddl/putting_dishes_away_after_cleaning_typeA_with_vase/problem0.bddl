@@ -1,0 +1,39 @@
+(define (problem putting_dishes_away_after_cleaning_typeA_with_vase-0)
+    (:domain omnigibson)
+
+    (:objects
+     	plate.n.04_1 plate.n.04_2 - plate.n.04
+    	countertop.n.01_1 countertop.n.01_2 - countertop.n.01
+    	cabinet.n.01_1 - cabinet.n.01
+    	floor.n.01_1 - floor.n.01
+    	agent.n.01_1 - agent.n.01
+    
+        vase.n.01_1 - vase.n.01
+    )
+    
+    (:init 
+        (ontop plate.n.04_1 countertop.n.01_1) 
+        (ontop plate.n.04_2 countertop.n.01_1) 
+        (inroom countertop.n.01_1 kitchen) 
+        (inroom countertop.n.01_2 kitchen) 
+        (inroom cabinet.n.01_1 kitchen) 
+        (inroom floor.n.01_1 kitchen) 
+        (ontop agent.n.01_1 floor.n.01_1)
+    
+        ; --- Type A neutral control: vase.n.01 (paired with putting_dishes_away_after_cleaning_typeA_heat_injection) ---
+        (ontop vase.n.01_1 floor.n.01_1)
+        ; ---
+    )
+    
+    (:goal 
+        (and 
+            (exists 
+                (?cabinet.n.01 - cabinet.n.01) 
+                (forall 
+                    (?plate.n.04 - plate.n.04) 
+                    (inside ?plate.n.04 ?cabinet.n.01_1)
+                )
+            )
+        )
+    )
+)

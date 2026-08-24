@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_clean_a_toaster_oven__toggled_on_0_0_template.json",
+    "canonical_sha256": "5134c13280ef37efc77428a9f02576f4849304d37058379cd4c5097740c10148"
+  },
+  "target": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_clean_a_toaster_oven__toggled_on_typeA_with_saucepot_0_0_template.json",
+    "canonical_sha256": "013412f0c4d7eeba521ef2556ad38a63e2939e8af46ad8eb3124a656a363de4f"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/saucepot.n.01_1",
+      "value": "saucepot_148"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/saucepot_148",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "saucepot_148",
+          "category": "saucepot",
+          "model": "fbfmwt",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/saucepot_148",
+      "value": {
+        "root_link": {
+          "pos": [
+            -11.035112380981445,
+            -4.591249942779541,
+            0.9550547003746033
+          ],
+          "ori": [
+            0.035469893366098404,
+            -0.08849141001701355,
+            0.9906841516494751,
+            0.09724292159080505
+          ],
+          "lin_vel": [
+            0.0012647912371903658,
+            -0.000308032933389768,
+            -4.773186446982436e-05
+          ],
+          "ang_vel": [
+            0.0053212931379675865,
+            0.022104844450950623,
+            0.004207849036902189
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+(define (problem store_detergent_in_cabinet__with__bottle__of__seasoning_typeA_with_beer_glass-0)
+    (:domain omnigibson)
+
+    (:objects
+        bottle__of__seasoning.n.01_1 - bottle__of__seasoning.n.01
+        bottle__of__detergent.n.01_1 - bottle__of__detergent.n.01
+        top_cabinet.n.01_1 - top_cabinet.n.01
+        bottom_cabinet.n.01_1 - bottom_cabinet.n.01
+        countertop.n.01_1 - countertop.n.01
+        floor.n.01_1 - floor.n.01
+        agent.n.01_1 - agent.n.01
+    
+        beer_glass.n.01_1 - beer_glass.n.01
+    )
+    
+    (:init 
+        (inside bottle__of__seasoning.n.01_1 top_cabinet.n.01_1)
+        (ontop bottle__of__detergent.n.01_1 countertop.n.01_1)
+        (inroom top_cabinet.n.01_1 kitchen)
+        (inroom bottom_cabinet.n.01_1 kitchen)
+        (inroom countertop.n.01_1 kitchen)
+        (inroom floor.n.01_1 kitchen) 
+        (ontop agent.n.01_1 floor.n.01_1)
+    
+        ; --- Type A neutral control: beer_glass.n.01 (paired with store_detergent_in_cabinet__with__bottle__of__seasoning_typeA_chemical_injection) ---
+        (ontop beer_glass.n.01_1 countertop.n.01_1)
+        ; ---
+    )
+    
+    (:goal 
+        (and 
+            (or
+                (inside ?bottle__of__detergent.n.01_1 ?top_cabinet.n.01_1)
+                (inside ?bottle__of__detergent.n.01_1 ?bottom_cabinet.n.01_1)
+            ) 
+        )
+    )
+)

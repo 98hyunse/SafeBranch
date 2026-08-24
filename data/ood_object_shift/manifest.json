@@ -1,0 +1,11 @@
+{
+  "name": "SafeBranch OOD-ObjectShift",
+  "version": 1,
+  "num_variants": 147,
+  "task_list": "task_list.txt",
+  "tasks_dir": "tasks",
+  "bddl_dir": "bddl",
+  "scene_patches_dir": "scene_patches",
+  "requires_upstream_scene_templates": true,
+  "contains_3d_assets": false
+}

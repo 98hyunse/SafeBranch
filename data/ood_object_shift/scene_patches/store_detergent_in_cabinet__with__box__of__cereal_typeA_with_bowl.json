@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_store_detergent_in_cabinet__with__box__of__cereal_0_0_template.json",
+    "canonical_sha256": "29cbe2f90f9231bf888dac8201a98787927956a4234b523c7d11f723f2551ed6"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_store_detergent_in_cabinet__with__box__of__cereal_typeA_with_bowl_0_0_template.json",
+    "canonical_sha256": "877d504b1f3f0997259b2be39868d25e3b915beca77e3df40f33ff7df364c97a"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/bowl.n.01_1",
+      "value": "bowl_339"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/bowl_339",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "bowl_339",
+          "category": "bowl",
+          "model": "jblalf",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/bowl_339",
+      "value": {
+        "root_link": {
+          "pos": [
+            -3.759249448776245,
+            13.649053573608398,
+            0.9088172912597656
+          ],
+          "ori": [
+            -0.0012956698192283511,
+            0.0007767565548419952,
+            -0.07882313430309296,
+            0.9968874454498291
+          ],
+          "lin_vel": [
+            1.427462302672211e-05,
+            -1.8795341020449996e-05,
+            -8.087728929240257e-06
+          ],
+          "ang_vel": [
+            0.00045025741565041244,
+            0.0003621939104050398,
+            8.817218622425571e-05
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

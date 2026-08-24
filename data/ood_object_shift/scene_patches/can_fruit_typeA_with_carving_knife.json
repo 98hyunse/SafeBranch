@@ -1,0 +1,76 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_can_fruit_0_0_template.json",
+    "canonical_sha256": "9c514176d6898c2c5abde85c2d81e2a1eeef4781c1681b497afba8d14a451806"
+  },
+  "target": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_can_fruit_typeA_with_carving_knife_0_0_template.json",
+    "canonical_sha256": "c7b17f39e55c7d652d5d3944b66779070a0696f62055391e04167a8ab9b056fc"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/carving_knife.n.01_1",
+      "value": "carving_knife_117"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/carving_knife_117",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "carving_knife_117",
+          "category": "carving_knife",
+          "model": "awvoox",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/carving_knife_117",
+      "value": {
+        "root_link": {
+          "pos": [
+            0.022861700505018234,
+            0.6508463025093079,
+            0.9255468249320984
+          ],
+          "ori": [
+            0.4434405565261841,
+            -0.03513455018401146,
+            -0.006728338077664375,
+            0.8955895900726318
+          ],
+          "lin_vel": [
+            -4.625929407134921e-18,
+            -1.8503714319817234e-17,
+            -1.6350003480911255
+          ],
+          "ang_vel": [
+            1.5522048923966025e-10,
+            9.189668894276268e-18,
+            9.701277108031814e-12
+          ]
+        },
+        "non_kin": {
+          "SlicerActive": {
+            "value": true,
+            "previously_touching": false,
+            "delay_counter": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_disinfectant_in_cabinet__with__box__of__cereal_0_0_template.json",
+    "canonical_sha256": "12fd0f17a63721e55f68b08308300e01f9e8a36a759022d69049cc9f7f8354be"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_disinfectant_in_cabinet__with__box__of__cereal_typeA_with_carving_knife_0_0_template.json",
+    "canonical_sha256": "ded6b2f5d814e20b4d84d4deefdf02c9ff851898a7f217369442370ab731df1d"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/carving_knife.n.01_1",
+      "value": "carving_knife_181"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/carving_knife_181",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "carving_knife_181",
+          "category": "carving_knife",
+          "model": "oxvnsa",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/carving_knife_181",
+      "value": {
+        "root_link": {
+          "pos": [
+            -7.86314058303833,
+            -4.854991436004639,
+            0.8974127769470215
+          ],
+          "ori": [
+            -0.11851402372121811,
+            0.4525242745876312,
+            -0.05539826303720474,
+            0.8821039199829102
+          ],
+          "lin_vel": [
+            -3.700744022016304e-18,
+            6.245002280128852e-18,
+            -1.6350003480911255
+          ],
+          "ang_vel": [
+            2.934636561535697e-11,
+            3.880510062587161e-12,
+            2.3283062977608182e-11
+          ]
+        },
+        "non_kin": {
+          "SlicerActive": {
+            "value": true,
+            "previously_touching": false,
+            "delay_counter": 0
+          }
+        }
+      }
+    }
+  ]
+}

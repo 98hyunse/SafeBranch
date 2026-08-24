@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_cleaner_in_cabinet__with__can__of__beans_0_0_template.json",
+    "canonical_sha256": "e6881aeb228c65927945649ff97e86278f1a992ba95e112f4efcb00470ca163d"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_cleaner_in_cabinet__with__can__of__beans_typeA_with_bowl_0_0_template.json",
+    "canonical_sha256": "eacfa0cbebdb2a02712d25c114d54d84e7d0de1b1511ec4f82b0a09e6c7c13ed"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/bowl.n.01_1",
+      "value": "bowl_178"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/bowl_178",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "bowl_178",
+          "category": "bowl",
+          "model": "xplzbo",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/bowl_178",
+      "value": {
+        "root_link": {
+          "pos": [
+            105.0,
+            105.0,
+            -95.14984893798828
+          ],
+          "ori": [
+            1.862645371275562e-09,
+            2.3283067140944524e-10,
+            -5.820766785236131e-11,
+            1.0
+          ],
+          "lin_vel": [
+            -2.8416248920258135e-28,
+            -2.4891717003343807e-26,
+            -1.6350003480911255
+          ],
+          "ang_vel": [
+            -1.5157605802017943e-13,
+            3.133564370564593e-20,
+            2.3683432957968343e-15
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

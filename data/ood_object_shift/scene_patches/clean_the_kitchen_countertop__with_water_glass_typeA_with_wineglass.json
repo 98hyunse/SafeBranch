@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Rs_int/json/Rs_int_task_clean_the_kitchen_countertop__with_water_glass_0_0_template.json",
+    "canonical_sha256": "0684373a4f30f5d53931f2c9a2c8c8ab1fad5082a1e7096216d6a22ce07603d3"
+  },
+  "target": {
+    "relative_path": "Rs_int/json/Rs_int_task_clean_the_kitchen_countertop__with_water_glass_typeA_with_wineglass_0_0_template.json",
+    "canonical_sha256": "a2e6122db743a88300a47494338eae3cd9b0aeb77f828b7034e4589a3bfd4c52"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/wineglass.n.01_1",
+      "value": "wineglass_79"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/wineglass_79",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "wineglass_79",
+          "category": "wineglass",
+          "model": "ezsdil",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/wineglass_79",
+      "value": {
+        "root_link": {
+          "pos": [
+            -0.804973840713501,
+            1.5347951650619507,
+            1.1576428413391113
+          ],
+          "ori": [
+            -5.253590643405914e-06,
+            -1.331232488155365e-05,
+            -0.010998377576470375,
+            0.999939501285553
+          ],
+          "lin_vel": [
+            -0.00031673916964791715,
+            -0.0001321663148701191,
+            -0.00011926390288863331
+          ],
+          "ang_vel": [
+            0.0014717353042215109,
+            -0.002436361974105239,
+            0.0005921788397245109
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

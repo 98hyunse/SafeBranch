@@ -1,0 +1,76 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Wainscott_0_int/json/Wainscott_0_int_task_cook_tofu__with_bottle__of__oil_0_0_template.json",
+    "canonical_sha256": "b0d588e5d4b892bc5e4d969122ce5a82b0815b5d093ad3d6deda5d7d9db56478"
+  },
+  "target": {
+    "relative_path": "Wainscott_0_int/json/Wainscott_0_int_task_cook_tofu__with_bottle__of__oil_typeA_with_carving_knife_0_0_template.json",
+    "canonical_sha256": "585954c4db775373ee13739d576e3e698eee994dcbfe4867dd3a8b0c3897254a"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/carving_knife.n.01_1",
+      "value": "carving_knife_194"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/carving_knife_194",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "carving_knife_194",
+          "category": "carving_knife",
+          "model": "oxvnsa",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/carving_knife_194",
+      "value": {
+        "root_link": {
+          "pos": [
+            6.793343544006348,
+            12.67537784576416,
+            0.9267565011978149
+          ],
+          "ori": [
+            0.7265852093696594,
+            0.2298949807882309,
+            0.28087928891181946,
+            0.5833773612976074
+          ],
+          "lin_vel": [
+            0.000271680299192667,
+            0.010095334611833096,
+            -0.002102242549881339
+          ],
+          "ang_vel": [
+            -1.1616441011428833,
+            0.0313868522644043,
+            0.0004621028492692858
+          ]
+        },
+        "non_kin": {
+          "SlicerActive": {
+            "value": true,
+            "previously_touching": false,
+            "delay_counter": 0
+          }
+        }
+      }
+    }
+  ]
+}

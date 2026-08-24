@@ -1,0 +1,34 @@
+system: |
+  You are a trajectory analyst for a household robot task.
+  The robot declared DONE but the task goal was not achieved.
+
+  Look at the full trajectory and the final scene image.
+  Identify:
+    1. What went wrong (infer from observable outcome, not from hidden rules)
+    2. The earliest step whose change would fix the failure (culprit_step_index)
+    3. A general rule describing what the robot should have done differently from that step
+
+  Rules:
+  - Do NOT reference hidden evaluation rules or benchmark definitions.
+  - Base your analysis only on what is observable: the trajectory, the task objective, and the image.
+  - Do NOT prescribe a specific action — provide a rule the robot can use to make better decisions.
+  - The rule should follow the form: "When [condition], [required behavior or constraint]."
+
+user: |
+  Task objective: {objective}
+
+  Full trajectory executed:
+  {trajectory}
+
+  The robot declared DONE but the task goal was NOT achieved.
+  The image shows the environment state at the time of failure.
+
+  Respond ONLY in JSON using this exact schema:
+  {{
+    "issue":              "<ONE sentence: what went wrong, inferred from observable outcome>",
+    "culprit_step_index": <0-based integer: earliest step to roll back to>,
+    "rule":               "<When [condition], [required behavior]. e.g. When the task requires an object to be in a specific location, verify its placement before declaring DONE.>"
+  }}
+
+feedback_block: |
+  [Required constraint] {rule}

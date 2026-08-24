@@ -1,0 +1,77 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Rs_int/json/Rs_int_task_clean_the_kitchen_countertop__with_jar__of__jam_0_0_template.json",
+    "canonical_sha256": "cb85134d0a6aa191bb98138e60260711584c21fbe569487def32b88e45f40913"
+  },
+  "target": {
+    "relative_path": "Rs_int/json/Rs_int_task_clean_the_kitchen_countertop__with_jar__of__jam_typeA_with_carving_knife_0_0_template.json",
+    "canonical_sha256": "a38f82665f93f4057d70b99f60b3f3f571bc2efe34129cb8fc56025960793d21"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/carving_knife.n.01_1",
+      "value": "carving_knife_80"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/carving_knife_80",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "carving_knife_80",
+          "category": "carving_knife",
+          "model": "fqqbop",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0",
+            "living_room_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/carving_knife_80",
+      "value": {
+        "root_link": {
+          "pos": [
+            -0.8211890459060669,
+            1.5368844270706177,
+            1.088897466659546
+          ],
+          "ori": [
+            -0.1543719619512558,
+            0.01563851349055767,
+            -0.003966419026255608,
+            0.9878810048103333
+          ],
+          "lin_vel": [
+            -6.866607210561679e-20,
+            -7.427587695146286e-24,
+            -1.6350003480911255
+          ],
+          "ang_vel": [
+            9.69931687050396e-12,
+            9.701057231831234e-13,
+            1.6576547009632169e-15
+          ]
+        },
+        "non_kin": {
+          "SlicerActive": {
+            "value": true,
+            "previously_touching": false,
+            "delay_counter": 0
+          }
+        }
+      }
+    }
+  ]
+}

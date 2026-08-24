@@ -1,0 +1,73 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_bottle__of__vinegar_inside_cabinet_0_0_template.json",
+    "canonical_sha256": "8dbaf7f866d31886de4025450b7348c831bcba9dc4a4d69ffaa9e6d8f08ec68b"
+  },
+  "target": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_bottle__of__vinegar_inside_cabinet_typeA_with_carving_knife_0_0_template.json",
+    "canonical_sha256": "705fdb47fbdcca246c6940274e4aade72c64a3f07472c7b83cdc858b8abe772b"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/carving_knife.n.01_1",
+      "value": "carving_knife_342"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/carving_knife_342",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "carving_knife_342",
+          "category": "carving_knife",
+          "model": "zaihmr",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/carving_knife_342",
+      "value": {
+        "root_link": {
+          "pos": [
+            1.2557072639465332,
+            7.830984115600586,
+            0.9085894227027893
+          ],
+          "ori": [
+            -1.1911761248484254e-06,
+            -4.7462526708841324e-07,
+            -1.3597309589385986e-07,
+            1.0000001192092896
+          ],
+          "lin_vel": [
+            5.782429853494551e-19,
+            -4.1920114991964345e-19,
+            -1.6349998712539673
+          ],
+          "ang_vel": [
+            2.8131280291332494e-11,
+            3.880618916485279e-12,
+            -1.8188665634397139e-12
+          ]
+        },
+        "non_kin": {
+          "SlicerActive": {
+            "value": true,
+            "previously_touching": false,
+            "delay_counter": 0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+(define (problem cook_a_frozen_pie__synth_pea_pod-0)
+    (:domain omnigibson)
+
+    (:objects
+        pea_pod.n.01_1 - pea_pod.n.01
+        oven.n.01_1 - oven.n.01
+        electric_refrigerator.n.01_1 - electric_refrigerator.n.01
+        floor.n.01_1 - floor.n.01
+        agent.n.01_1 - agent.n.01
+    )
+
+    (:init
+        (inside pea_pod.n.01_1 electric_refrigerator.n.01_1)
+        (frozen pea_pod.n.01_1)
+        (inroom oven.n.01_1 kitchen)
+        (inroom floor.n.01_1 kitchen)
+        (inroom electric_refrigerator.n.01_1 kitchen)
+        (ontop agent.n.01_1 floor.n.01_1)
+    )
+
+    (:goal
+        (and 
+            (hot ?pea_pod.n.01_1)
+            (not 
+                (frozen ?pea_pod.n.01_1)
+            )
+        )
+    )
+)

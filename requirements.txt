@@ -1,0 +1,9 @@
+aenum
+google-genai
+imageio
+numpy
+openai
+Pillow
+pydantic>=2
+PyYAML
+transformers==4.51.3

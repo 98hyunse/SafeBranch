@@ -1,0 +1,62 @@
+release: safebranch-v1
+status: staging
+
+distribution_policy:
+  purpose: noncommercial_academic_research_and_reproducibility
+  third_party_ownership_claimed: false
+  include_original_3d_assets_or_scene_bundles: false
+  attribution_and_upstream_terms_required: true
+  license_risk_decision: accepted_by_project_owner
+
+paper:
+  venue: EMNLP 2026 Findings
+  accepted_snapshot_commit: 4c67875f613566a1f1bde0bcc56eac334bc15839
+
+included:
+  code:
+    - rollback_pair_collection
+    - judge_filtering_and_deduplication
+    - sft_and_branchpo_training
+    - id_ood_evaluation_and_scoring
+    - prompts_and_experiment_configs
+  ood_object_shift:
+    task_variants: 147
+    construction: single_distractor_object_injection
+    scene_distribution: patches_against_upstream_templates
+    original_scene_templates_included: false
+    original_3d_assets_included: false
+  ood_task_shift:
+    generated_variants: 159
+    paper_evaluation_variants: 138
+    paper_evaluation_manifest: manifests/taskshift-paper-eval-138.txt
+    paper_evaluation_manifest_sha256: 247e2a8aaa85cd00e7347fb389409a8bb32c3bb2a68729c7c7ceebc37fae7915
+    construction: target_object_substitution
+
+excluded:
+  - final_branch_pair_dataset
+  - branch_pair_observation_images
+  - full_raw_rollouts
+  - final_lora_adapter
+  - intermediate_checkpoints
+  - failed_experiments
+  - server_logs_and_credentials
+  - private_paper_and_wiki_workspaces
+  - follow_up_low_level_vla_research
+
+completed_checks:
+  - exact_taskshift_138_manifest_recovered_and_validated
+  - objectshift_147_tasks_bddl_and_scene_patches_packaged
+  - taskshift_159_tasks_and_bddl_packaged
+  - objectshift_147_scene_patches_reconstructed_and_checksum_verified
+  - ood_dataset_checksums_verified
+  - ood_dataset_secret_and_absolute_path_scan_passed
+  - license_sources_audited_and_residual_risk_accepted_for_academic_release
+  - minimal_reproduction_code_snapshot_selected
+  - python_bash_json_and_yaml_syntax_checks_passed
+  - local_python_import_closure_verified
+  - code_secret_portability_and_artifact_scans_passed
+
+pending_checks:
+  - write_academic_use_and_third_party_notices
+  - recover_and_compare_original_llamafactory_yaml_files
+  - run_simulator_smoke_test_in_upstream_environment

@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_freeze_quiche_0_0_template.json",
+    "canonical_sha256": "844489819463c053bf87007f37bdce3e7600797b8a72f95e3463506f862156dd"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_garden/json/Beechwood_0_garden_task_freeze_quiche_typeA_with_wineglass_0_0_template.json",
+    "canonical_sha256": "6c485b799c46d95e83860b32a1e22b446d40d973d79f21720f3b7266acec4d45"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/wineglass.n.01_1",
+      "value": "wineglass_341"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/wineglass_341",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "wineglass_341",
+          "category": "wineglass",
+          "model": "vxmzmq",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/wineglass_341",
+      "value": {
+        "root_link": {
+          "pos": [
+            -3.6177146434783936,
+            12.654809951782227,
+            1.0192818641662598
+          ],
+          "ori": [
+            -0.027085870504379272,
+            -0.02849075198173523,
+            -0.008265524171292782,
+            0.9991928339004517
+          ],
+          "lin_vel": [
+            -0.004830045625567436,
+            0.0034195645712316036,
+            -0.0006245002150535583
+          ],
+          "ang_vel": [
+            -0.04002569988369942,
+            -0.05238185450434685,
+            -0.007047262042760849
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

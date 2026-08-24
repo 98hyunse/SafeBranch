@@ -1,0 +1,75 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Rs_garden/json/Rs_garden_task_clean_a_kitchen_sink__with_electric_kettle_0_0_template.json",
+    "canonical_sha256": "1ec8c7e6c0d0908c7261134d552fe14f1ce458194acbbcf06027f2ad7c3e32cb"
+  },
+  "target": {
+    "relative_path": "Rs_garden/json/Rs_garden_task_clean_a_kitchen_sink__with_electric_kettle_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "28c1f8054d480a00d4d9ac83c1b35dc42bee5c34dde9c53f456623f79d130679"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_177"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_177",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_177",
+          "category": "vase",
+          "model": "kjeudr",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0",
+            "living_room_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_177",
+      "value": {
+        "root_link": {
+          "pos": [
+            -0.2324826866388321,
+            -2.0970566272735596,
+            1.132279396057129
+          ],
+          "ori": [
+            -0.000573780620470643,
+            0.0002411889872746542,
+            -0.007582564372569323,
+            0.9999710917472839
+          ],
+          "lin_vel": [
+            0.001412824378348887,
+            0.0027736923657357693,
+            -5.4580814321525395e-05
+          ],
+          "ang_vel": [
+            -0.050595998764038086,
+            0.025137176737189293,
+            -0.00024684908566996455
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

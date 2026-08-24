@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_cleaner_in_cabinet__with__bottle__of__seasoning_0_0_template.json",
+    "canonical_sha256": "596d6a1a26ccda3b8ed7b80da6b44c006c2670b5b61e051e800747bfe5579b04"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_cleaner_in_cabinet__with__bottle__of__seasoning_typeA_with_bowl_0_0_template.json",
+    "canonical_sha256": "40310db5ac30d01e071c494bf2caa802db521da0d71cedc9103027d04395e058"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/bowl.n.01_1",
+      "value": "bowl_178"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/bowl_178",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "bowl_178",
+          "category": "bowl",
+          "model": "xplzbo",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/bowl_178",
+      "value": {
+        "root_link": {
+          "pos": [
+            -6.2398881912231445,
+            -5.736038684844971,
+            0.9266666173934937
+          ],
+          "ori": [
+            -0.0002664858475327492,
+            -0.00018855975940823555,
+            -6.4805790316313505e-06,
+            1.0000001192092896
+          ],
+          "lin_vel": [
+            -2.8416248920258135e-28,
+            -2.4891717003343807e-26,
+            -1.6350003480911255
+          ],
+          "ang_vel": [
+            -1.5157605802017943e-13,
+            3.133564370564593e-20,
+            2.3683432957968343e-15
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

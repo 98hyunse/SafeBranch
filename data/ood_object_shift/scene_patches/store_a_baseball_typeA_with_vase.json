@@ -1,0 +1,75 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Rs_int/json/Rs_int_task_store_a_baseball_0_0_template.json",
+    "canonical_sha256": "12697148e77be6fc043dff6d40724a6d1a1bd1169bbf6685f9975048a8929cef"
+  },
+  "target": {
+    "relative_path": "Rs_int/json/Rs_int_task_store_a_baseball_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "a9a3f6c2d32c1f8f5afb214e575a2ab47438001ca8b46fdc5ba8a425fcbadc35"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_78"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_78",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_78",
+          "category": "vase",
+          "model": "rusmlm",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0",
+            "living_room_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_78",
+      "value": {
+        "root_link": {
+          "pos": [
+            -1.1731947660446167,
+            1.4482158422470093,
+            1.1433742046356201
+          ],
+          "ori": [
+            -2.9881487080274383e-06,
+            -4.3446200947983016e-07,
+            -0.006338702514767647,
+            0.9999799132347107
+          ],
+          "lin_vel": [
+            5.532258001039736e-06,
+            -2.608504019008251e-06,
+            -1.3568983376899268e-05
+          ],
+          "ang_vel": [
+            0.00011806715338025242,
+            0.00016421992040704936,
+            3.642119281721534e-06
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

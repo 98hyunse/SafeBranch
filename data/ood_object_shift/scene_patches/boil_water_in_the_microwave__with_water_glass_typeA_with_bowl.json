@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_boil_water_in_the_microwave__with_water_glass_0_0_template.json",
+    "canonical_sha256": "151d1e02606dd2137434fe5fa1e98801a3607e831dd79c20096c7ca35abd65ce"
+  },
+  "target": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_boil_water_in_the_microwave__with_water_glass_typeA_with_bowl_0_0_template.json",
+    "canonical_sha256": "c3032a4cb3a8f3ff8bdaf8c0ae4e121cc56210494e9d3e056520fefb6aa5c96b"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/bowl.n.01_1",
+      "value": "bowl_114"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/bowl_114",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "bowl_114",
+          "category": "bowl",
+          "model": "kdkrov",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/bowl_114",
+      "value": {
+        "root_link": {
+          "pos": [
+            -2.774794816970825,
+            -2.639565944671631,
+            0.9771379828453064
+          ],
+          "ori": [
+            6.891787052154541e-08,
+            5.075708031654358e-08,
+            -0.09280165284872055,
+            0.9956846237182617
+          ],
+          "lin_vel": [
+            -7.787559297867119e-05,
+            -0.0004538549983408302,
+            -0.00011087411257904023
+          ],
+          "ang_vel": [
+            0.003132208250463009,
+            0.0012417121324688196,
+            -0.005685579497367144
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

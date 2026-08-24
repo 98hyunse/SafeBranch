@@ -1,0 +1,70 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_remove_hard_water_spots_0_0_template.json",
+    "canonical_sha256": "93d7683f227690f2ebfb39c03a207a7e5c832ac73b6d54677f7e5c5af3df67bb"
+  },
+  "target": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_remove_hard_water_spots_typeA_with_power_strip_0_0_template.json",
+    "canonical_sha256": "1daeeab54e8e5ef2bcad0f85510089c6225a729b786e746b4dc8c6d098e85ab8"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/power_strip.n.01_1",
+      "value": "power_strip_184"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/power_strip_184",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "power_strip_184",
+          "category": "power_strip",
+          "model": "czvrku",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/power_strip_184",
+      "value": {
+        "root_link": {
+          "pos": [
+            -10.415206909179688,
+            0.8659582734107971,
+            0.9105100035667419
+          ],
+          "ori": [
+            0.001768551068380475,
+            0.012531274929642677,
+            -0.14769211411476135,
+            0.9889524579048157
+          ],
+          "lin_vel": [
+            -1.7260152162634768e-05,
+            -0.0001395390572724864,
+            -2.6896779672824778e-05
+          ],
+          "ang_vel": [
+            0.002562572481110692,
+            -0.0005565062165260315,
+            2.570573633420281e-05
+          ]
+        },
+        "non_kin": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_disinfectant_in_cabinet__with__bag__of__tea_0_0_template.json",
+    "canonical_sha256": "13c66acf439a72d999c877770231147da1e58bcc352ba03a537a08f1bec2da6a"
+  },
+  "target": {
+    "relative_path": "Beechwood_0_int/json/Beechwood_0_int_task_store_disinfectant_in_cabinet__with__bag__of__tea_typeA_with_beer_glass_0_0_template.json",
+    "canonical_sha256": "950ff61e90d91f31fbc01691cdee43574ccb319fa083da26a4eab79d575a244f"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/beer_glass.n.01_1",
+      "value": "beer_glass_179"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/beer_glass_179",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "beer_glass_179",
+          "category": "beer_glass",
+          "model": "lymciz",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/beer_glass_179",
+      "value": {
+        "root_link": {
+          "pos": [
+            -5.778779983520508,
+            -6.018831729888916,
+            2.503314733505249
+          ],
+          "ori": [
+            0.0006850861827842891,
+            0.0003024695033673197,
+            -0.02448412962257862,
+            0.9996999502182007
+          ],
+          "lin_vel": [
+            0.00010589777957648039,
+            -0.008385321125388145,
+            -0.0008976836688816547
+          ],
+          "ang_vel": [
+            0.06860113888978958,
+            0.022776439785957336,
+            0.03568762168288231
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

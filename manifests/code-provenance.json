@@ -1,0 +1,587 @@
+{
+  "source_repository": "private IS-Bench working tree",
+  "source_commit": "dd1698d6f193f224cce9b314b6e9c059e064f548",
+  "selection_method": "recursive local import closure from collection, extraction, and canonical scoring entrypoints plus paper prompts/configs",
+  "files": [
+    {
+      "source_path": "_workspace/pair_splits_by_risk_v5_v2_reviewed/test_task_list.txt",
+      "published_path": "configs/evaluation/id_test_32.txt",
+      "source_sha256": "b4404cf7782f7339f4868c38948d4334954bca8f72d9deb49bdc7cf880462c97",
+      "source_git_status": "clean",
+      "published_sha256": "b4404cf7782f7339f4868c38948d4334954bca8f72d9deb49bdc7cf880462c97"
+    },
+    {
+      "source_path": "data/cameras/camera.json",
+      "published_path": "data/cameras/camera.json",
+      "source_sha256": "0e4b801ddd8fbbf348b5ea8d97fd89ff71a0329fb4efecfbc90354bfa7397b33",
+      "source_git_status": "M data/cameras/camera.json",
+      "published_sha256": "0e4b801ddd8fbbf348b5ea8d97fd89ff71a0329fb4efecfbc90354bfa7397b33"
+    },
+    {
+      "source_path": "entrypoints/dfs_collect.sh",
+      "published_path": "entrypoints/dfs_collect.sh",
+      "source_sha256": "9b6ceb654853d92860c732732dcaa47183e87c57c66199c214ae80419128f3ef",
+      "source_git_status": "M entrypoints/dfs_collect.sh",
+      "published_sha256": "8f6984c598f79a9e784bf34801e732a811d97f00ad86d56ed653a2e8f67a242a"
+    },
+    {
+      "source_path": "og_ego_prim/__init__.py",
+      "published_path": "og_ego_prim/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_status": "M og_ego_prim/__init__.py",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/__init__.py",
+      "published_path": "og_ego_prim/benchmark/__init__.py",
+      "source_sha256": "01d5cc7d3ab7a553cecd23741bc991e50c43419c1d6076de80a905cb9a15f974",
+      "source_git_status": "M og_ego_prim/benchmark/__init__.py",
+      "published_sha256": "01d5cc7d3ab7a553cecd23741bc991e50c43419c1d6076de80a905cb9a15f974"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/base_benchmark.py",
+      "published_path": "og_ego_prim/benchmark/base_benchmark.py",
+      "source_sha256": "bd3560efa6f30b96d2088cdc5aada02d785e68b04ce5b8333f0c7adf89304c18",
+      "source_git_status": "M og_ego_prim/benchmark/base_benchmark.py",
+      "published_sha256": "bd3560efa6f30b96d2088cdc5aada02d785e68b04ce5b8333f0c7adf89304c18"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/custom_behavior_task.py",
+      "published_path": "og_ego_prim/benchmark/custom_behavior_task.py",
+      "source_sha256": "8600144304d1525a62f4ecfa51d26241b8209474fd65a2fa66cd7f5c71d6512f",
+      "source_git_status": "M og_ego_prim/benchmark/custom_behavior_task.py",
+      "published_sha256": "8600144304d1525a62f4ecfa51d26241b8209474fd65a2fa66cd7f5c71d6512f"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/data_utils.py",
+      "published_path": "og_ego_prim/benchmark/data_utils.py",
+      "source_sha256": "43ab192322d07bb7550a01fbc33f1e29c297b7d362f8da88b07fd9eaa9248f9e",
+      "source_git_status": "M og_ego_prim/benchmark/data_utils.py",
+      "published_sha256": "43ab192322d07bb7550a01fbc33f1e29c297b7d362f8da88b07fd9eaa9248f9e"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/evaluator/__init__.py",
+      "published_path": "og_ego_prim/benchmark/evaluator/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_status": "M og_ego_prim/benchmark/evaluator/__init__.py",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/evaluator/bddl_goal_condition.py",
+      "published_path": "og_ego_prim/benchmark/evaluator/bddl_goal_condition.py",
+      "source_sha256": "941762d0fc76c8cbf231418679100ebab621293d45780600c807f9838e5b5a34",
+      "source_git_status": "M og_ego_prim/benchmark/evaluator/bddl_goal_condition.py",
+      "published_sha256": "941762d0fc76c8cbf231418679100ebab621293d45780600c807f9838e5b5a34"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/evaluator/evaluator.py",
+      "published_path": "og_ego_prim/benchmark/evaluator/evaluator.py",
+      "source_sha256": "bcd26796c8c1ae118c77fe98a389a3830256eabde46e708dda0ab363fc0e7c78",
+      "source_git_status": "M og_ego_prim/benchmark/evaluator/evaluator.py",
+      "published_sha256": "bcd26796c8c1ae118c77fe98a389a3830256eabde46e708dda0ab363fc0e7c78"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/online_benchmark.py",
+      "published_path": "og_ego_prim/benchmark/online_benchmark.py",
+      "source_sha256": "d3356d297a6e0869670978f906be60c2c4714f2614f0db9913a31020e99e8313",
+      "source_git_status": "M og_ego_prim/benchmark/online_benchmark.py",
+      "published_sha256": "d3356d297a6e0869670978f906be60c2c4714f2614f0db9913a31020e99e8313"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/tracker/__init__.py",
+      "published_path": "og_ego_prim/benchmark/tracker/__init__.py",
+      "source_sha256": "d476f2c3a143a62c15c67f4889d90201913ce397ecc12a8dc342f15efbcd0cc8",
+      "source_git_status": "M og_ego_prim/benchmark/tracker/__init__.py",
+      "published_sha256": "d476f2c3a143a62c15c67f4889d90201913ce397ecc12a8dc342f15efbcd0cc8"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/tracker/base_tracker.py",
+      "published_path": "og_ego_prim/benchmark/tracker/base_tracker.py",
+      "source_sha256": "526a7ebb6ede504c20244ecf56862658f5240df6bb23dc2e350a21e0e68603a2",
+      "source_git_status": "M og_ego_prim/benchmark/tracker/base_tracker.py",
+      "published_sha256": "526a7ebb6ede504c20244ecf56862658f5240df6bb23dc2e350a21e0e68603a2"
+    },
+    {
+      "source_path": "og_ego_prim/benchmark/tracker/online_tracker.py",
+      "published_path": "og_ego_prim/benchmark/tracker/online_tracker.py",
+      "source_sha256": "c3caaefe91375d732adb70a41e88e69aa1c4adee31eaedbf09cdfb642fa8e6bd",
+      "source_git_status": "M og_ego_prim/benchmark/tracker/online_tracker.py",
+      "published_sha256": "c3caaefe91375d732adb70a41e88e69aa1c4adee31eaedbf09cdfb642fa8e6bd"
+    },
+    {
+      "source_path": "og_ego_prim/cli/dfs_collect.py",
+      "published_path": "og_ego_prim/cli/dfs_collect.py",
+      "source_sha256": "a1e4ecf48cc81df23bd3258a68d6a29136a59db2c373c8ffb5802558fb64c105",
+      "source_git_status": "M og_ego_prim/cli/dfs_collect.py",
+      "published_sha256": "8d163523b522da7107a2b5a2254a2f8fd0b1764c7d774bcff2216aaf71d09748"
+    },
+    {
+      "source_path": "og_ego_prim/cli/refresh_index.py",
+      "published_path": "og_ego_prim/cli/refresh_index.py",
+      "source_sha256": "8886302775fe5b752b0d6b338923432b8c424d16d4cbc647f6409076aacd69b2",
+      "source_git_status": "M og_ego_prim/cli/refresh_index.py",
+      "published_sha256": "8886302775fe5b752b0d6b338923432b8c424d16d4cbc647f6409076aacd69b2"
+    },
+    {
+      "source_path": "og_ego_prim/cli/summary_dfs_canonical.py",
+      "published_path": "og_ego_prim/cli/summary_dfs_canonical.py",
+      "source_sha256": "1f04f9c05abaf2735601efaf1bc5a2427972a921228b3d879308a0f181909fdb",
+      "source_git_status": "M og_ego_prim/cli/summary_dfs_canonical.py",
+      "published_sha256": "1f04f9c05abaf2735601efaf1bc5a2427972a921228b3d879308a0f181909fdb"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/__init__.py",
+      "published_path": "og_ego_prim/dfs/__init__.py",
+      "source_sha256": "a4bce2d633f6ac6d32745c0b36f1fcdaa2080004e3c0e27a77a16ce4ec11f87c",
+      "source_git_status": "M og_ego_prim/dfs/__init__.py",
+      "published_sha256": "a4bce2d633f6ac6d32745c0b36f1fcdaa2080004e3c0e27a77a16ce4ec11f87c"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/critics.py",
+      "published_path": "og_ego_prim/dfs/critics.py",
+      "source_sha256": "3821543ad3be863df90ae1a551f5a20919de20558db2e9fb4b1e48b3e9939331",
+      "source_git_status": "M og_ego_prim/dfs/critics.py",
+      "published_sha256": "3821543ad3be863df90ae1a551f5a20919de20558db2e9fb4b1e48b3e9939331"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/planner.py",
+      "published_path": "og_ego_prim/dfs/planner.py",
+      "source_sha256": "9ecbfe9593dd69d9e4109ea3b0bd859d07e90b6147630b90894001a051870127",
+      "source_git_status": "M og_ego_prim/dfs/planner.py",
+      "published_sha256": "d4b31392e37b3e0980b6d5c06df7ce94b84c68f428caf949182ffc5c6df07b8b"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompt_loader.py",
+      "published_path": "og_ego_prim/dfs/prompt_loader.py",
+      "source_sha256": "70c0e47484a8a7252218797a98eb340f8e8f26842f3c15975869ae75b304a8e0",
+      "source_git_status": "M og_ego_prim/dfs/prompt_loader.py",
+      "published_sha256": "70c0e47484a8a7252218797a98eb340f8e8f26842f3c15975869ae75b304a8e0"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/actor/v0.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/actor/v0.yaml",
+      "source_sha256": "1e2c9352d39b923630ccbbc069fbb21958b67b0eb215af2d7b13494d54b756d8",
+      "source_git_status": "M og_ego_prim/dfs/prompts/actor/v0.yaml",
+      "published_sha256": "1e2c9352d39b923630ccbbc069fbb21958b67b0eb215af2d7b13494d54b756d8"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/actor/v1.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/actor/v1.yaml",
+      "source_sha256": "0eb1d289e41af6983eee696f19e4eef7d516cb00d4c86640a348b4a78e9777de",
+      "source_git_status": "M og_ego_prim/dfs/prompts/actor/v1.yaml",
+      "published_sha256": "0eb1d289e41af6983eee696f19e4eef7d516cb00d4c86640a348b4a78e9777de"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/actor/v2.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/actor/v2.yaml",
+      "source_sha256": "57001b3d4bdfcf4cb0b286e63bc1dace8500d46aeff13a6bd82455a37ad869d8",
+      "source_git_status": "M og_ego_prim/dfs/prompts/actor/v2.yaml",
+      "published_sha256": "57001b3d4bdfcf4cb0b286e63bc1dace8500d46aeff13a6bd82455a37ad869d8"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/actor/v4.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/actor/v4.yaml",
+      "source_sha256": "cc747c3bf0eda7fae5a2aaf2289a19894713446f8fb2cff571c76009c9ccd087",
+      "source_git_status": "M og_ego_prim/dfs/prompts/actor/v4.yaml",
+      "published_sha256": "cc747c3bf0eda7fae5a2aaf2289a19894713446f8fb2cff571c76009c9ccd087"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/before_bddl/v0.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/before_bddl/v0.yaml",
+      "source_sha256": "4f1e20aeb1b87e6b19b40fefbf4de3d36ddc5ea6f85c2d0a2228f2d928f9764c",
+      "source_git_status": "M og_ego_prim/dfs/prompts/before_bddl/v0.yaml",
+      "published_sha256": "4f1e20aeb1b87e6b19b40fefbf4de3d36ddc5ea6f85c2d0a2228f2d928f9764c"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/before_bddl/v1.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/before_bddl/v1.yaml",
+      "source_sha256": "fd0ee0f022581c8330277bd97f3e6865c595f8ae711309aa9ee3844fba11bf0b",
+      "source_git_status": "M og_ego_prim/dfs/prompts/before_bddl/v1.yaml",
+      "published_sha256": "fd0ee0f022581c8330277bd97f3e6865c595f8ae711309aa9ee3844fba11bf0b"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/before_bddl/v2.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/before_bddl/v2.yaml",
+      "source_sha256": "9c44fcf385d218b96837108a6980ac37544c62901e5586915b5c7bc56045fabb",
+      "source_git_status": "M og_ego_prim/dfs/prompts/before_bddl/v2.yaml",
+      "published_sha256": "9c44fcf385d218b96837108a6980ac37544c62901e5586915b5c7bc56045fabb"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/before_bddl/v3.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/before_bddl/v3.yaml",
+      "source_sha256": "bdcc0b3f16d69f0ef30c3fba1bf06184fb3568531ba7811a43f0d1b74d4cc332",
+      "source_git_status": "M og_ego_prim/dfs/prompts/before_bddl/v3.yaml",
+      "published_sha256": "bdcc0b3f16d69f0ef30c3fba1bf06184fb3568531ba7811a43f0d1b74d4cc332"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/before_bddl/v4.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/before_bddl/v4.yaml",
+      "source_sha256": "5268e4a3db719b04b9588e2e009f9b136168e9dcc6744d3db99a3d6b6b271136",
+      "source_git_status": "M og_ego_prim/dfs/prompts/before_bddl/v4.yaml",
+      "published_sha256": "5268e4a3db719b04b9588e2e009f9b136168e9dcc6744d3db99a3d6b6b271136"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/prm/v0.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/prm/v0.yaml",
+      "source_sha256": "c0b9a63a6f6135728dcf161fdce64afc818a02c93cf448bb7ebd77b938a6a9ef",
+      "source_git_status": "M og_ego_prim/dfs/prompts/prm/v0.yaml",
+      "published_sha256": "c0b9a63a6f6135728dcf161fdce64afc818a02c93cf448bb7ebd77b938a6a9ef"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/prm/v1.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/prm/v1.yaml",
+      "source_sha256": "3d19f76c8cfd7f5eb7badf49459573338609b3f3db551eac4a41520d5e02b366",
+      "source_git_status": "M og_ego_prim/dfs/prompts/prm/v1.yaml",
+      "published_sha256": "3d19f76c8cfd7f5eb7badf49459573338609b3f3db551eac4a41520d5e02b366"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/prm/v2.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/prm/v2.yaml",
+      "source_sha256": "02633dd062a89721f708229b4a7496fbad600082559a7f6bb199ea76c71a1e99",
+      "source_git_status": "M og_ego_prim/dfs/prompts/prm/v2.yaml",
+      "published_sha256": "02633dd062a89721f708229b4a7496fbad600082559a7f6bb199ea76c71a1e99"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/prm/v3.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/prm/v3.yaml",
+      "source_sha256": "c8d6311b6121803023e94f9bfbdecb30d5761c4e41935887166b7fe1ffaf9d1e",
+      "source_git_status": "M og_ego_prim/dfs/prompts/prm/v3.yaml",
+      "published_sha256": "c8d6311b6121803023e94f9bfbdecb30d5761c4e41935887166b7fe1ffaf9d1e"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/task_fail/v0.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/task_fail/v0.yaml",
+      "source_sha256": "d87bf0a6edd666f1f9a3b3ec8599dcc51d486ff1bf7dcdeccf2a694b8282c1c9",
+      "source_git_status": "M og_ego_prim/dfs/prompts/task_fail/v0.yaml",
+      "published_sha256": "d87bf0a6edd666f1f9a3b3ec8599dcc51d486ff1bf7dcdeccf2a694b8282c1c9"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v0.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v0.yaml",
+      "source_sha256": "96f271d2ed886230c574e4265aea7ae75d23542db8846ec198388a053bb0fb27",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v0.yaml",
+      "published_sha256": "96f271d2ed886230c574e4265aea7ae75d23542db8846ec198388a053bb0fb27"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v1.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v1.yaml",
+      "source_sha256": "e755ca5c4398cb4fa6c4626510e77acdc171b652549189f2e9f11edd441131e6",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v1.yaml",
+      "published_sha256": "e755ca5c4398cb4fa6c4626510e77acdc171b652549189f2e9f11edd441131e6"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v2.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v2.yaml",
+      "source_sha256": "ba7afe581efc8e4501d4d7cd7218889190fafb8949522cbe64d0cbb5c3691be2",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v2.yaml",
+      "published_sha256": "ba7afe581efc8e4501d4d7cd7218889190fafb8949522cbe64d0cbb5c3691be2"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v3_abstract.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v3_abstract.yaml",
+      "source_sha256": "f850812b28da70d9920ae3e7c3deb118fdf503f58b9e2b5c49a052af408cd756",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v3_abstract.yaml",
+      "published_sha256": "f850812b28da70d9920ae3e7c3deb118fdf503f58b9e2b5c49a052af408cd756"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v3_grounded.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v3_grounded.yaml",
+      "source_sha256": "608b01cc45553aab7e42a476e9d8757987c78d22a1ee945803550da7e104ed92",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v3_grounded.yaml",
+      "published_sha256": "608b01cc45553aab7e42a476e9d8757987c78d22a1ee945803550da7e104ed92"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v3_prescriptive.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v3_prescriptive.yaml",
+      "source_sha256": "0464625eac65fc012bd98d6ac8f96a38f16a7203aed501570b3c03bda1704135",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v3_prescriptive.yaml",
+      "published_sha256": "0464625eac65fc012bd98d6ac8f96a38f16a7203aed501570b3c03bda1704135"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v4.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v4.yaml",
+      "source_sha256": "fd126d32831e4d0eefca6cd6b08b83dc17d71c32f74fd1d3e3b14a8fb153897a",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v4.yaml",
+      "published_sha256": "fd126d32831e4d0eefca6cd6b08b83dc17d71c32f74fd1d3e3b14a8fb153897a"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/prompts/term_safety/v5.yaml",
+      "published_path": "og_ego_prim/dfs/prompts/term_safety/v5.yaml",
+      "source_sha256": "90b0bd2668ba0513e26dedecb790ce4a38002d51db6e2ab126b2fe646f194d21",
+      "source_git_status": "M og_ego_prim/dfs/prompts/term_safety/v5.yaml",
+      "published_sha256": "90b0bd2668ba0513e26dedecb790ce4a38002d51db6e2ab126b2fe646f194d21"
+    },
+    {
+      "source_path": "og_ego_prim/dfs/trace_logger.py",
+      "published_path": "og_ego_prim/dfs/trace_logger.py",
+      "source_sha256": "2d7d3697ffcd6527e985b64b32c7659da0b7334acf34cc4ce6e84ff958d2d911",
+      "source_git_status": "M og_ego_prim/dfs/trace_logger.py",
+      "published_sha256": "2d7d3697ffcd6527e985b64b32c7659da0b7334acf34cc4ce6e84ff958d2d911"
+    },
+    {
+      "source_path": "og_ego_prim/harness/__init__.py",
+      "published_path": "og_ego_prim/harness/__init__.py",
+      "source_sha256": "04d7fe8e5ed38ef8a6b904ad20b4ccd5439112b00e91e138fa0598be92b63856",
+      "source_git_status": "M og_ego_prim/harness/__init__.py",
+      "published_sha256": "04d7fe8e5ed38ef8a6b904ad20b4ccd5439112b00e91e138fa0598be92b63856"
+    },
+    {
+      "source_path": "og_ego_prim/harness/logger.py",
+      "published_path": "og_ego_prim/harness/logger.py",
+      "source_sha256": "09b3cd65f96a8fa8e32989f91919153a6680bcfef3b63bb90ac88ed58115d32b",
+      "source_git_status": "M og_ego_prim/harness/logger.py",
+      "published_sha256": "09b3cd65f96a8fa8e32989f91919153a6680bcfef3b63bb90ac88ed58115d32b"
+    },
+    {
+      "source_path": "og_ego_prim/harness/migrate.py",
+      "published_path": "og_ego_prim/harness/migrate.py",
+      "source_sha256": "07b9e2d1b26c985de5e25bf13983b9d89dadbf8675eb0e0058c83d30296f812e",
+      "source_git_status": "M og_ego_prim/harness/migrate.py",
+      "published_sha256": "07b9e2d1b26c985de5e25bf13983b9d89dadbf8675eb0e0058c83d30296f812e"
+    },
+    {
+      "source_path": "og_ego_prim/harness/schema.py",
+      "published_path": "og_ego_prim/harness/schema.py",
+      "source_sha256": "d8e6d5268bc7c2077abd2909a3c04911e8c4fb3566ef9da9560ef987f866f151",
+      "source_git_status": "M og_ego_prim/harness/schema.py",
+      "published_sha256": "d8e6d5268bc7c2077abd2909a3c04911e8c4fb3566ef9da9560ef987f866f151"
+    },
+    {
+      "source_path": "og_ego_prim/models/__init__.py",
+      "published_path": "og_ego_prim/models/__init__.py",
+      "source_sha256": "3d3cdbe3236d5f3e817f051f41c52f3af97904d70e22c4d9ca6fd46ab79a86b0",
+      "source_git_status": "M og_ego_prim/models/__init__.py",
+      "published_sha256": "3d3cdbe3236d5f3e817f051f41c52f3af97904d70e22c4d9ca6fd46ab79a86b0"
+    },
+    {
+      "source_path": "og_ego_prim/models/base_client.py",
+      "published_path": "og_ego_prim/models/base_client.py",
+      "source_sha256": "3ebfaf02de82ce2b2c0301060583359d7809fb2e6d8068c37b2b8560d7564d68",
+      "source_git_status": "M og_ego_prim/models/base_client.py",
+      "published_sha256": "3ebfaf02de82ce2b2c0301060583359d7809fb2e6d8068c37b2b8560d7564d68"
+    },
+    {
+      "source_path": "og_ego_prim/models/hf_inference.py",
+      "published_path": "og_ego_prim/models/hf_inference.py",
+      "source_sha256": "0830a77d4deb1ec18ef01bff18a1c0d181364194122ebc3733ffa9cdca0c73c2",
+      "source_git_status": "M og_ego_prim/models/hf_inference.py",
+      "published_sha256": "0830a77d4deb1ec18ef01bff18a1c0d181364194122ebc3733ffa9cdca0c73c2"
+    },
+    {
+      "source_path": "og_ego_prim/models/image_utils.py",
+      "published_path": "og_ego_prim/models/image_utils.py",
+      "source_sha256": "cbfcc7abebcaa9f0a567e6968f018cd1c87c52a5e092e22a4e82387528b7b004",
+      "source_git_status": "M og_ego_prim/models/image_utils.py",
+      "published_sha256": "cbfcc7abebcaa9f0a567e6968f018cd1c87c52a5e092e22a4e82387528b7b004"
+    },
+    {
+      "source_path": "og_ego_prim/models/plan_agent.py",
+      "published_path": "og_ego_prim/models/plan_agent.py",
+      "source_sha256": "ff3637a31f0e65588fcdcc4448d6eebab64867897b6f6e200c46819cc35014e0",
+      "source_git_status": "M og_ego_prim/models/plan_agent.py",
+      "published_sha256": "ff3637a31f0e65588fcdcc4448d6eebab64867897b6f6e200c46819cc35014e0"
+    },
+    {
+      "source_path": "og_ego_prim/models/server_inference.py",
+      "published_path": "og_ego_prim/models/server_inference.py",
+      "source_sha256": "f04ab644a2dbe6c48585b52ee6433bcb41a55db3a555524d8581b3c2fadfa851",
+      "source_git_status": "M og_ego_prim/models/server_inference.py",
+      "published_sha256": "f04ab644a2dbe6c48585b52ee6433bcb41a55db3a555524d8581b3c2fadfa851"
+    },
+    {
+      "source_path": "og_ego_prim/primitives/__init__.py",
+      "published_path": "og_ego_prim/primitives/__init__.py",
+      "source_sha256": "bbc1e8f09fe894c3f1b79d40640fc6777f659590e3b3cb519ed2add2b59eac41",
+      "source_git_status": "M og_ego_prim/primitives/__init__.py",
+      "published_sha256": "bbc1e8f09fe894c3f1b79d40640fc6777f659590e3b3cb519ed2add2b59eac41"
+    },
+    {
+      "source_path": "og_ego_prim/primitives/attachment.py",
+      "published_path": "og_ego_prim/primitives/attachment.py",
+      "source_sha256": "6265abfe253918720b74f68b030b7c096c46764048529826b09ebeb389176b54",
+      "source_git_status": "M og_ego_prim/primitives/attachment.py",
+      "published_sha256": "6265abfe253918720b74f68b030b7c096c46764048529826b09ebeb389176b54"
+    },
+    {
+      "source_path": "og_ego_prim/primitives/ego_primitives.py",
+      "published_path": "og_ego_prim/primitives/ego_primitives.py",
+      "source_sha256": "fb81ee68f26b6109f2e7d91c66cfbb98da9c8cd33d89d8a117764b9a8c4f5b1a",
+      "source_git_status": "M og_ego_prim/primitives/ego_primitives.py",
+      "published_sha256": "fb81ee68f26b6109f2e7d91c66cfbb98da9c8cd33d89d8a117764b9a8c4f5b1a"
+    },
+    {
+      "source_path": "og_ego_prim/primitives/executor.py",
+      "published_path": "og_ego_prim/primitives/executor.py",
+      "source_sha256": "9b4cefe1fcc9ae7ddba9bf2e595fe98f8e9063daea2bf9d662edcdbbae2b22e7",
+      "source_git_status": "M og_ego_prim/primitives/executor.py",
+      "published_sha256": "9b4cefe1fcc9ae7ddba9bf2e595fe98f8e9063daea2bf9d662edcdbbae2b22e7"
+    },
+    {
+      "source_path": "og_ego_prim/primitives/object_states_utils.py",
+      "published_path": "og_ego_prim/primitives/object_states_utils.py",
+      "source_sha256": "4bd078fd0a253a799080a695e6ec2ce461cadbfe51162a791dabd25ecd5f228f",
+      "source_git_status": "M og_ego_prim/primitives/object_states_utils.py",
+      "published_sha256": "4bd078fd0a253a799080a695e6ec2ce461cadbfe51162a791dabd25ecd5f228f"
+    },
+    {
+      "source_path": "og_ego_prim/primitives/primitive_utils.py",
+      "published_path": "og_ego_prim/primitives/primitive_utils.py",
+      "source_sha256": "1c48fad68ed66d558495355f11bab4b2b43ff83f22eb9e89cd30bb3fcf07c7fa",
+      "source_git_status": "M og_ego_prim/primitives/primitive_utils.py",
+      "published_sha256": "1c48fad68ed66d558495355f11bab4b2b43ff83f22eb9e89cd30bb3fcf07c7fa"
+    },
+    {
+      "source_path": "og_ego_prim/training/__init__.py",
+      "published_path": "og_ego_prim/training/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_status": "M og_ego_prim/training/__init__.py",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/__init__.py",
+      "published_path": "og_ego_prim/training/extraction/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_status": "M og_ego_prim/training/extraction/__init__.py",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/bddl_rule_matcher.py",
+      "published_path": "og_ego_prim/training/extraction/bddl_rule_matcher.py",
+      "source_sha256": "11b1ae9c306000c11f54ce69a44859031e9d73f655b93e85baad2ec89260bb6e",
+      "source_git_status": "M og_ego_prim/training/extraction/bddl_rule_matcher.py",
+      "published_sha256": "11b1ae9c306000c11f54ce69a44859031e9d73f655b93e85baad2ec89260bb6e"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/branch_extractor_track_a.py",
+      "published_path": "og_ego_prim/training/extraction/branch_extractor_track_a.py",
+      "source_sha256": "c73bc2485821ca0244579c28aeba0a9d64ed9faa0faa0a03bd6a0de988c6c5c0",
+      "source_git_status": "M og_ego_prim/training/extraction/branch_extractor_track_a.py",
+      "published_sha256": "c73bc2485821ca0244579c28aeba0a9d64ed9faa0faa0a03bd6a0de988c6c5c0"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/branch_extractor_track_b.py",
+      "published_path": "og_ego_prim/training/extraction/branch_extractor_track_b.py",
+      "source_sha256": "1795abc862c7b7a39bbf9743ac7996df4338d81c182e3d1c8286df46e4acd190",
+      "source_git_status": "M og_ego_prim/training/extraction/branch_extractor_track_b.py",
+      "published_sha256": "1795abc862c7b7a39bbf9743ac7996df4338d81c182e3d1c8286df46e4acd190"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/cli/extract_branches_b.py",
+      "published_path": "og_ego_prim/training/extraction/cli/extract_branches_b.py",
+      "source_sha256": "656cbcfc3c056e311d8b2ae79ae03cce472e912665e4d5adf3657745a9496547",
+      "source_git_status": "M og_ego_prim/training/extraction/cli/extract_branches_b.py",
+      "published_sha256": "656cbcfc3c056e311d8b2ae79ae03cce472e912665e4d5adf3657745a9496547"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/conversation_parser.py",
+      "published_path": "og_ego_prim/training/extraction/conversation_parser.py",
+      "source_sha256": "6d5c59754e1c0d84ccd737bbef8e38850fe46bd2ddec0acb42589e91c08bcd02",
+      "source_git_status": "M og_ego_prim/training/extraction/conversation_parser.py",
+      "published_sha256": "6d5c59754e1c0d84ccd737bbef8e38850fe46bd2ddec0acb42589e91c08bcd02"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/hindsight_relabel.py",
+      "published_path": "og_ego_prim/training/extraction/hindsight_relabel.py",
+      "source_sha256": "044c4070dad5aca9bc00836d8834268dcafd8f3d030b330cb09da9ad53ff4164",
+      "source_git_status": "M og_ego_prim/training/extraction/hindsight_relabel.py",
+      "published_sha256": "044c4070dad5aca9bc00836d8834268dcafd8f3d030b330cb09da9ad53ff4164"
+    },
+    {
+      "source_path": "og_ego_prim/training/extraction/trace_walker.py",
+      "published_path": "og_ego_prim/training/extraction/trace_walker.py",
+      "source_sha256": "639ab78d64f87b2151299e13e978d81316def2ace2bedbc8aa1e59de24f6d910",
+      "source_git_status": "M og_ego_prim/training/extraction/trace_walker.py",
+      "published_sha256": "639ab78d64f87b2151299e13e978d81316def2ace2bedbc8aa1e59de24f6d910"
+    },
+    {
+      "source_path": "og_ego_prim/utils/__init__.py",
+      "published_path": "og_ego_prim/utils/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_git_status": "M og_ego_prim/utils/__init__.py",
+      "published_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source_path": "og_ego_prim/utils/constants.py",
+      "published_path": "og_ego_prim/utils/constants.py",
+      "source_sha256": "f64346f18f72a44f4831df50216285ccd4d4c26d4cc6d25909bc5e4087cda17f",
+      "source_git_status": "M og_ego_prim/utils/constants.py",
+      "published_sha256": "a7d90215c471ff20fd037346ae38eb736ad0997ed3a1e2496077fa4ac51ba544"
+    },
+    {
+      "source_path": "og_ego_prim/utils/monkey_patch.py",
+      "published_path": "og_ego_prim/utils/monkey_patch.py",
+      "source_sha256": "3eb5c3ff491f61025c3d6731750270c3de0fcd8ab2f6bc470047695f925db354",
+      "source_git_status": "M og_ego_prim/utils/monkey_patch.py",
+      "published_sha256": "3eb5c3ff491f61025c3d6731750270c3de0fcd8ab2f6bc470047695f925db354"
+    },
+    {
+      "source_path": "og_ego_prim/utils/prompts.py",
+      "published_path": "og_ego_prim/utils/prompts.py",
+      "source_sha256": "a3bf498193057f90b331e7f873e406cfa1e2e1da50b103e239eac05af51ac147",
+      "source_git_status": "M og_ego_prim/utils/prompts.py",
+      "published_sha256": "a3bf498193057f90b331e7f873e406cfa1e2e1da50b103e239eac05af51ac147"
+    },
+    {
+      "source_path": "og_ego_prim/utils/types.py",
+      "published_path": "og_ego_prim/utils/types.py",
+      "source_sha256": "a2fd34044310f062952b825a3390166f2a90a89ba5f829e54c66f1f8b6e6dade",
+      "source_git_status": "M og_ego_prim/utils/types.py",
+      "published_sha256": "a2fd34044310f062952b825a3390166f2a90a89ba5f829e54c66f1f8b6e6dade"
+    },
+    {
+      "source_path": "requirements.txt",
+      "published_path": "requirements.txt",
+      "source_sha256": "e331e079c639c4715d3c3fe486ab2699e0f30f0a7966f24428bd5732d3e5a78e",
+      "source_git_status": "M requirements.txt",
+      "published_sha256": "b5e28a20737b03fa13114f24c0943e229d0b4c9b2c90636d0b7329019162f311"
+    },
+    {
+      "source_path": "scripts/convert_for_b200_training.py",
+      "published_path": "scripts/prepare_training_data.py",
+      "source_sha256": "f78f3ae53636bca4704a473251438009b195812762c0b70c217c76945124c033",
+      "source_git_status": "M scripts/convert_for_b200_training.py",
+      "published_sha256": "fc0b588ceff51c08ee9d6848fd4cda2cf9443a01586b251546f636b892ee3779"
+    },
+    {
+      "source_path": "scripts/llm_judge_filter.py",
+      "published_path": "scripts/llm_judge_filter.py",
+      "source_sha256": "2637984fc68456572f30b9e69062c7fd5f766302cbb91264aad5dfbadf811e81",
+      "source_git_status": "?? scripts/llm_judge_filter.py",
+      "published_sha256": "2637984fc68456572f30b9e69062c7fd5f766302cbb91264aad5dfbadf811e81"
+    },
+    {
+      "source_path": "scripts/merge_branch_pools.py",
+      "published_path": "scripts/merge_branch_pools.py",
+      "source_sha256": "e61c92445de85ab4a42cfc93536395be0397d17457403911269bc1990e0bc05c",
+      "source_git_status": "M scripts/merge_branch_pools.py",
+      "published_sha256": "9a7d36a8bbfcb5f315648dcb27c80006fc228e1ea9e8048c4e81c947c142b8e6"
+    },
+    {
+      "source_path": "scripts/quality_llm_judge.py",
+      "published_path": "scripts/quality_llm_judge.py",
+      "source_sha256": "85b927886cf4726e92bee5deee34876fe7bba4f5fbea31059d939fadb1b268f5",
+      "source_git_status": "?? scripts/quality_llm_judge.py",
+      "published_sha256": "85b927886cf4726e92bee5deee34876fe7bba4f5fbea31059d939fadb1b268f5"
+    },
+    {
+      "source_path": "scripts/split_to_sft_dpo.py",
+      "published_path": "scripts/split_to_sft_dpo.py",
+      "source_sha256": "d2fe59fd8301ae3eccb29df581bb94d059fadcdbc08c316cb8f3e86b95de0cef",
+      "source_git_status": "?? scripts/split_to_sft_dpo.py",
+      "published_sha256": "dee8ccb17fef30fb5577f5526d72fbbff78ef79e1a5636049e66455ab2e68349"
+    },
+    {
+      "source_path": "scripts/train_test_split_by_risk.py",
+      "published_path": "scripts/train_test_split_by_risk.py",
+      "source_sha256": "19126b706f565483df728d8241d7537e06d4f3d25c50b0e6e27e6bd9910a75c1",
+      "source_git_status": "?? scripts/train_test_split_by_risk.py",
+      "published_sha256": "19126b706f565483df728d8241d7537e06d4f3d25c50b0e6e27e6bd9910a75c1"
+    }
+  ],
+  "release_changes": [
+    "replaced private endpoints and placeholder keys with localhost and EMPTY defaults",
+    "made dataset and workspace paths configurable through environment variables",
+    "renamed the training-path conversion utility to prepare_training_data.py",
+    "reduced requirements.txt to direct lightweight dependencies; simulator dependencies remain upstream"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Benevolence_1_int/json/Benevolence_1_int_task_put_food_in_chopping_board__with_mud_0_0_template.json",
+    "canonical_sha256": "f22ca0632d2cdefac040235e7ba883fe5643c00327e45116e5cd6b97123a1b0e"
+  },
+  "target": {
+    "relative_path": "Benevolence_1_int/json/Benevolence_1_int_task_put_food_in_chopping_board__with_mud_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "a25618793360349439637152762a7bb4ed3c8978a12f3094ee766c2a707c417b"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_82"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_82",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_82",
+          "category": "vase",
+          "model": "aegxpb",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_82",
+      "value": {
+        "root_link": {
+          "pos": [
+            0.3128184378147125,
+            1.365006685256958,
+            1.014853596687317
+          ],
+          "ori": [
+            -0.004569823853671551,
+            0.0024362627882510424,
+            -0.07594209909439087,
+            0.9970988035202026
+          ],
+          "lin_vel": [
+            -0.0013489432167261839,
+            -0.0007059691706672311,
+            -0.00011900394747499377
+          ],
+          "ang_vel": [
+            0.0039013384375721216,
+            -0.01798303611576557,
+            0.011608758009970188
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

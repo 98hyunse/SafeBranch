@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_remove_hard_water_spots_0_0_template.json",
+    "canonical_sha256": "93d7683f227690f2ebfb39c03a207a7e5c832ac73b6d54677f7e5c5af3df67bb"
+  },
+  "target": {
+    "relative_path": "restaurant_diner/json/restaurant_diner_task_remove_hard_water_spots_typeA_with_vase_0_0_template.json",
+    "canonical_sha256": "1d0c3f5f2aa9965c21a44cd8c68cf69a189ba9e159868f487cac03c85031232b"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/vase.n.01_1",
+      "value": "vase_184"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/vase_184",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "vase_184",
+          "category": "vase",
+          "model": "meetii",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/vase_184",
+      "value": {
+        "root_link": {
+          "pos": [
+            -8.958812713623047,
+            -2.5112991333007812,
+            1.0248888731002808
+          ],
+          "ori": [
+            6.000592838972807e-05,
+            -5.395268090069294e-06,
+            -0.02321099489927292,
+            0.9997305870056152
+          ],
+          "lin_vel": [
+            0.0031528198160231113,
+            -7.616495713591576e-05,
+            0.00016384851187467575
+          ],
+          "ang_vel": [
+            0.00032245824695564806,
+            0.022910265251994133,
+            0.0016936617903411388
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

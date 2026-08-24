@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_boil_water_in_the_microwave__with_water_glass_0_0_template.json",
+    "canonical_sha256": "151d1e02606dd2137434fe5fa1e98801a3607e831dd79c20096c7ca35abd65ce"
+  },
+  "target": {
+    "relative_path": "Pomaria_1_int/json/Pomaria_1_int_task_boil_water_in_the_microwave__with_water_glass_typeA_with_wineglass_0_0_template.json",
+    "canonical_sha256": "f977efb81d2434871830fb4d874a1cf1879e20eb52dc8d313e1ceb9acdd0443f"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/wineglass.n.01_1",
+      "value": "wineglass_116"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/wineglass_116",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "wineglass_116",
+          "category": "wineglass",
+          "model": "euzudc",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "kitchen_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/wineglass_116",
+      "value": {
+        "root_link": {
+          "pos": [
+            -3.1423118114471436,
+            -2.622342824935913,
+            1.049872636795044
+          ],
+          "ori": [
+            -0.000998902483843267,
+            0.0008511868654750288,
+            -0.01937234029173851,
+            0.9998114705085754
+          ],
+          "lin_vel": [
+            -0.0005144178867340088,
+            -0.0009722664835862815,
+            -0.000387931359000504
+          ],
+          "ang_vel": [
+            0.004433425143361092,
+            -0.002112067537382245,
+            0.005592312663793564
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

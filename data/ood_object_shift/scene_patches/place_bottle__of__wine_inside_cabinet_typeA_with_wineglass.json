@@ -1,0 +1,74 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_bottle__of__wine_inside_cabinet_0_0_template.json",
+    "canonical_sha256": "7e5cb1641c8d3f84a7f2723b8f8c535cb5ce7a2d96a06925ca00e9878fe0bf79"
+  },
+  "target": {
+    "relative_path": "Wainscott_1_int/json/Wainscott_1_int_task_place_bottle__of__wine_inside_cabinet_typeA_with_wineglass_0_0_template.json",
+    "canonical_sha256": "6101f7694c8c919c01cb80586f7cfc9f77e74ffd4ad67b4d25862b851f24c549"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/wineglass.n.01_1",
+      "value": "wineglass_168"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/wineglass_168",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "wineglass_168",
+          "category": "wineglass",
+          "model": "ggbdlq",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "in_rooms": [
+            "utility_room_0"
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/wineglass_168",
+      "value": {
+        "root_link": {
+          "pos": [
+            1.2755439281463623,
+            7.830135822296143,
+            0.966722309589386
+          ],
+          "ori": [
+            -8.676110883243382e-05,
+            1.0764691978693008e-05,
+            -0.03387492150068283,
+            0.999426007270813
+          ],
+          "lin_vel": [
+            -4.353094846010208e-05,
+            -3.864890459226444e-06,
+            -9.952589607564732e-06
+          ],
+          "ang_vel": [
+            0.0006002019508741796,
+            -0.0008602620218880475,
+            -0.00026350756525062025
+          ]
+        },
+        "non_kin": {
+          "Temperature": {
+            "temperature": 23.0
+          }
+        }
+      }
+    }
+  ]
+}

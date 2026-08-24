@@ -1,0 +1,73 @@
+{
+  "format": "safebranch-json-patch-v1",
+  "base": {
+    "relative_path": "Benevolence_1_int/json/Benevolence_1_int_task_roast_nuts_0_0_template.json",
+    "canonical_sha256": "23f978204d178a0f101a5368ac39f89c528c4e9c37169b5fcca64982a40c016e"
+  },
+  "target": {
+    "relative_path": "Benevolence_1_int/json/Benevolence_1_int_task_roast_nuts_typeA_with_carving_knife_0_0_template.json",
+    "canonical_sha256": "20ca027797f12064741a9913a0d13f24f8c0a6e93cd20399afb9d8bd27fcde87"
+  },
+  "operations": [
+    {
+      "op": "add",
+      "path": "/metadata/task/inst_to_name/carving_knife.n.01_1",
+      "value": "carving_knife_84"
+    },
+    {
+      "op": "add",
+      "path": "/objects_info/init_info/carving_knife_84",
+      "value": {
+        "class_module": "omnigibson.objects.dataset_object",
+        "class_name": "DatasetObject",
+        "args": {
+          "name": "carving_knife_84",
+          "category": "carving_knife",
+          "model": "fqqbop",
+          "prim_type": 0,
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/state/object_registry/carving_knife_84",
+      "value": {
+        "root_link": {
+          "pos": [
+            -0.2716577649116516,
+            0.5348555445671082,
+            0.008737671189010143
+          ],
+          "ori": [
+            -0.15437978506088257,
+            0.015636906027793884,
+            -0.0039615267887711525,
+            0.9878798723220825
+          ],
+          "lin_vel": [
+            -6.866607210561679e-20,
+            -7.427587695146286e-24,
+            -1.6350003480911255
+          ],
+          "ang_vel": [
+            9.69931687050396e-12,
+            9.701057231831234e-13,
+            1.6576547009632169e-15
+          ]
+        },
+        "non_kin": {
+          "SlicerActive": {
+            "value": true,
+            "previously_touching": false,
+            "delay_counter": 0
+          }
+        }
+      }
+    }
+  ]
+}
